@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>箭头函数 · GitBook</title>
+        <title>数值 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="p4.html" />
+    <link rel="next" href="string.html" />
     
     
-    <link rel="prev" href="p2.html" />
+    <link rel="prev" href="type.html" />
     
 
     </head>
@@ -129,9 +129,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="../base/base.html">
+        <li class="chapter " data-level="1.3.1" data-path="base.html">
             
-                <a href="../base/base.html">
+                <a href="base.html">
             
                     
                     基本语法
@@ -142,9 +142,35 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="../c1/p2.html">
+        <li class="chapter " data-level="1.3.2" data-path="type.html">
             
-                <a href="../c1/p2.html">
+                <a href="type.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3" data-path="number.html">
+            
+                <a href="number.html">
+            
+                    
+                    数值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="string.html">
+            
+                <a href="string.html">
             
                     
                     字符串
@@ -155,12 +181,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="../c1/p3.html">
+        <li class="chapter " data-level="1.3.5" data-path="object.html">
             
-                <a href="../c1/p3.html">
+                <a href="object.html">
             
                     
-                    数组
+                    对象
             
                 </a>
             
@@ -170,148 +196,6 @@
     
 
             </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="../c2.html">
-            
-                <a href="../c2.html">
-            
-                    
-                    函数
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" data-path="p1.html">
-            
-                <a href="p1.html">
-            
-                    
-                    基础
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2" data-path="p2.html">
-            
-                <a href="p2.html">
-            
-                    
-                    闭包
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.4.3" data-path="p3.html">
-            
-                <a href="p3.html">
-            
-                    
-                    箭头函数
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.4" data-path="p4.html">
-            
-                <a href="p4.html">
-            
-                    
-                    generator
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="../c3.html">
-            
-                <a href="../c3.html">
-            
-                    
-                    OOB
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1" data-path="../c3/p1.html">
-            
-                <a href="../c3/p1.html">
-            
-                    
-                    原型链
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.2" data-path="../c3/p2.html">
-            
-                <a href="../c3/p2.html">
-            
-                    
-                    class继承
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="../c4.html">
-            
-                <a href="../c4.html">
-            
-                    
-                    jquery
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="../c5.html">
-            
-                <a href="../c5.html">
-            
-                    
-                    node
-            
-                </a>
-            
-
             
         </li>
     
@@ -345,7 +229,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >箭头函数</a>
+        <a href=".." >数值</a>
     </h1>
 </div>
 
@@ -360,7 +244,18 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7BAD;&#x5934;&#x51FD;&#x6570;">&#x7BAD;&#x5934;&#x51FD;&#x6570;</h1>
+                                <h1 id="&#x6570;&#x503C;">&#x6570;&#x503C;</h1>
+<p>JavaScript &#x5185;&#x90E8;&#xFF0C;&#x6240;&#x6709;&#x6570;&#x5B57;&#x90FD;&#x662F;&#x4EE5;64&#x4F4D;&#x6D6E;&#x70B9;&#x6570;&#x5F62;&#x5F0F;&#x50A8;&#x5B58;&#xFF0C;&#x5373;&#x4F7F;&#x6574;&#x6570;&#x4E5F;&#x662F;&#x5982;&#x6B64;&#x3002;&#x6240;&#x4EE5;&#xFF0C;1&#x4E0E;1.0&#x662F;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x6570;&#x3002;</p>
+<p>avaScript &#x80FD;&#x591F;&#x8868;&#x793A;&#x7684;&#x6570;&#x503C;&#x8303;&#x56F4;&#x4E3A;21024&#x5230;2-1023&#xFF08;&#x5F00;&#x533A;&#x95F4;&#xFF09;&#xFF0C;&#x8D85;&#x51FA;&#x8FD9;&#x4E2A;&#x8303;&#x56F4;&#x7684;&#x6570;&#x65E0;&#x6CD5;&#x8868;&#x793A;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x6307;&#x6570;&#x90E8;&#x5206;&#x7B49;&#x4E8E;&#x6216;&#x8D85;&#x8FC7;&#x6700;&#x5927;&#x6B63;&#x503C;1024&#xFF0C;JavaScript &#x4F1A;&#x8FD4;&#x56DE;Infinity</p>
+<pre><code>0 / 0 // NaN
+1 / 0 // Infinity
+</code></pre><p>&#x81F3;&#x4E8E;&#x5177;&#x4F53;&#x7684;&#x6700;&#x5927;&#x503C;&#x548C;&#x6700;&#x5C0F;&#x503C;&#xFF0C;JavaScript &#x63D0;&#x4F9B;Number&#x5BF9;&#x8C61;&#x7684;MAX_VALUE&#x548C;MIN_VALUE&#x5C5E;&#x6027;&#x8868;&#x793A;</p>
+<h1 id="&#x4E0E;&#x6570;&#x503C;&#x76F8;&#x5173;&#x7684;&#x5168;&#x5C40;&#x65B9;&#x6CD5;">&#x4E0E;&#x6570;&#x503C;&#x76F8;&#x5173;&#x7684;&#x5168;&#x5C40;&#x65B9;&#x6CD5;</h1>
+<ul>
+<li>parseInt</li>
+<li>parseFloat</li>
+</ul>
 
                                 
                                 </section>
@@ -388,12 +283,12 @@
 
             
                 
-                <a href="p2.html" class="navigation navigation-prev " aria-label="Previous page: 闭包">
+                <a href="type.html" class="navigation navigation-prev " aria-label="Previous page: 数据类型">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="p4.html" class="navigation navigation-next " aria-label="Next page: generator">
+                <a href="string.html" class="navigation navigation-next " aria-label="Next page: 字符串">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -404,7 +299,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"箭头函数","level":"1.4.3","depth":2,"next":{"title":"generator","level":"1.4.4","depth":2,"path":"c2/p4.md","ref":"c2/p4.md","articles":[]},"previous":{"title":"闭包","level":"1.4.2","depth":2,"path":"c2/p2.md","ref":"c2/p2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c2/p3.md","mtime":"2017-07-27T02:22:17.535Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-27T05:48:45.369Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"数值","level":"1.3.3","depth":2,"next":{"title":"字符串","level":"1.3.4","depth":2,"path":"base/string.md","ref":"base/string.md","articles":[]},"previous":{"title":"数据类型","level":"1.3.2","depth":2,"path":"base/type.md","ref":"base/type.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base/number.md","mtime":"2017-07-27T08:38:36.310Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-27T08:59:30.325Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
