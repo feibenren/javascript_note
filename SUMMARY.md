@@ -10,7 +10,7 @@
     * [闭包](c2/p2.md)
     * [箭头函数](c2/p3.md)
     * [generator](c2/p4.md)
-* [OBB](c3.md)
+* [OOB](c3.md)
     * [原型链](c3/p1.md)
     * [class继承](c3/p2.md)
 * [jquery](c4.md)
