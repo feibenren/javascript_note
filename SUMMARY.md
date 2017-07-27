@@ -2,8 +2,8 @@
 
 * [说明](README.md)
 * [markdown基础语法](markdown.md)
-* [js基础](c1.md)
-    * [基本语法](c1/p1.md)
+* [js基础](base.md)
+    * [基本语法](base/base.md)
     * [字符串](c1/p2.md)
     * [数组](c1/p3.md)
 * [函数](c2.md)
