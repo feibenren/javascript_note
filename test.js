@@ -1,7 +1,3 @@
-var a = {
-    name: 'wang',
-    sex: 'nan'
-};
-for (var val in a) {
-    console.log(val);
-}
+var name = "The Window";　　
+var object = {　　　　 name: "My Object", 　　　　getNameFunc: function() {　　　　　　 return function() {　　　　　　　　 return this.name;　　　　　　 };　　　　 }　　 };　　
+console.log(object.getNameFunc()());
