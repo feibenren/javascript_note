@@ -16,5 +16,7 @@
 * [标准库](stdlib.md)
     - [object](object.md)
     - [array](array.md)
+    - [包装对象](wrapper.md)
+    - [Number](number.md)
     
 

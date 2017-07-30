@@ -9,6 +9,13 @@ JavaScript 原生提供Object对象（注意起首的O是大写），所有其�
 * 部署在Object对象本身
 * 部署在Object.prototype对象
 
+> 注意，上面的是方法，属性的话，我测试，部署再Ojbect上面属性的话，就不可以，但是第二种却可以，所以，推荐使用prototype
+```
+Object.name = 'wangbing';
+var obj = new Object();
+console.log(obj.name);
+```
+
 Object本身当作工具方法使用时，可以将任意值转为对象。这个方法常用于保证某个值一定是对象。
 
 Object 对象的静态方法
