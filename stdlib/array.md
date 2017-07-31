@@ -76,4 +76,24 @@ users
 })
 .forEach(alert);
 ```
+slice && splice都可以删除元素，slice最多两个参数，splice没有限制
+---------
+arr.slice(start_index, upto_index);//
+arr.splice(index, count_to_remove, addElement1, addElement2, ...);
+
+map
+-----------
+```
+[1, 2, 3].map(function(elem, index, arr) {
+  return elem * index;
+});
+```
+
+map方法还可以接受第二个参数，表示回调函数执行时this所指向的对象。
+
+
+> forEach方法与map方法很相似，也是遍历数组的所有成员，执行某种操作，但是forEach方法一般不返回值，只用来操作数据。如果需要有返回值，一般使用map方法。
+
+
+
 
