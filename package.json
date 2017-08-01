@@ -1,0 +1,25 @@
+{
+  "name": "javascript_note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feibenren/javascript_note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feibenren/javascript_note/issues"
+  },
+  "homepage": "https://github.com/feibenren/javascript_note#readme",
+  "devDependencies": {
+    "gitbook": "^3.2.2"
+  }
+}
