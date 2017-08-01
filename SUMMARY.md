@@ -8,4 +8,6 @@
     * [数值](base/number.md)
     * [字符串](base/string.md)
     * [对象](base/object.md)
+    * [数组](base/array.md)
+    * [函数](base/function.md)
 
